@@ -1,0 +1,93 @@
+/* 
+    Parent elements: paddings + alignment 
+    Elements: visual styles (font size + color)
+*/
+
+/* Text sizes */
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+.bold-p {
+    color: black;
+    font-size: 18px;
+}
+
+/* Column style */
+.text-col {
+    padding: 30px;
+}
+
+.banner-text-col {
+    padding: 15px;
+    text-align: center;
+}
+
+.img-col {
+    padding: 15px;
+}
+
+.gap-break-col {
+    height: 100px;
+}
+
+.gap-break-md-col {
+    height: 50px;
+}
+
+/* Row style */
+.grey-row {
+    background-color: #f8f8f8;
+}
+
+/* Table style */
+table {
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid;
+}
+
+.flex {}
+
+/* Flex box style */
+.flex>div {
+    /* turns it into flex box */
+    display: flex;
+    /* allows wrapping */
+    flex-wrap: wrap;
+    /* spacing between items */
+    gap: 5px;
+}
+
+.flex>div>div {
+    /* base width */
+    flex-basis: 150px;
+
+    font-size: 16px;
+    color: black;
+    background-color: #f8f8f8;
+
+    padding: 15px;
+}
+
+.flex>p {
+    color: black;
+    font-size: 18px;
+}
